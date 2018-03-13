@@ -1,4 +1,92 @@
-.put{
+
+ul li a{
+	font-size: 30px;
+}
+ul > li > a{
+	background-color: yellow;
+}
+
+/*the one after a*/
+ul > li > a + p{
+	color: aqua;
+}
+/*every after a*/
+ul > li > a ~ p{
+	border: 2px violet solid;
+}
+
+/*special selectors LOOK!!!!!!*/
+
+
+
+
+/*pseudoclassess*/
+
+/*a:hover{
+	color: red;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color: green;
+}
+a:focus{
+	background-color: aqua;
+}
+input:focus{
+	background-color: yellow;
+}
+
+
+ul li:first-child{
+	background-color: orange;
+}
+ul li:last-child{
+	background-color: black;
+}
+ul li:nth-child(3){
+	background-color: red;
+}
+
+
+
+ul li:nth-child(odd){
+	border: 3px violet solid;
+}
+ul li:nth-child(even){
+	border: 3px brown solid;
+}
+ul li:nth-child(4) div{
+	width: 50px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #bbb;
+	position: relative;
+	transition: all 1s;
+}
+ul li:nth-child(4) div:hover{
+	z-index: 1;
+}
+ul li:nth-child(4) div:before{
+	content: '';
+	width: 50px;
+	height: 20px;
+	background-color: yellow;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}*/
+
+
+
+
+
+
+
+/*.put{
 	width: 500px;
 	height: 500px;
 	position: relative;
@@ -57,24 +145,18 @@
 	left: 280px;
 	transition: all 1s;
 }
-.put:hover .cub2{
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
+.put:hover .cub2,
 .put:hover .cub3{
-	position: absolute;
 	top: 20px;
 	left: 20px;
 }
 .put:hover .cub5{
-	position: absolute;
 	top: 260px;
 	left: 260px;
 }
 .put:hover .cub6{
-	position: absolute;
 	top: 240px;
 	left: 240px;
 }
 
+*/
