@@ -1,0 +1,80 @@
+.put{
+	width: 500px;
+	height: 500px;
+	position: relative;
+	background-color: #000;
+	transition: all 1s;
+}
+.cub1{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.cub2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	transition: all .5s;
+}
+.cub3{
+	width: 200px;
+	height: 200px;
+	background-color: aqua;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	transition: all 1s;
+}
+.cub4{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: absolute;
+	top: 280px;
+	left: 280px;
+}
+.cub5{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	top: 280px;
+	left: 280px;
+	transition: all .5s;
+}
+.cub6{
+	width: 200px;
+	height: 200px;
+	background-color: aqua;
+	position: absolute;
+	top: 280px;
+	left: 280px;
+	transition: all 1s;
+}
+.put:hover .cub2{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.put:hover .cub3{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.put:hover .cub5{
+	position: absolute;
+	top: 260px;
+	left: 260px;
+}
+.put:hover .cub6{
+	position: absolute;
+	top: 240px;
+	left: 240px;
+}
+
